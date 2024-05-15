@@ -44,7 +44,6 @@
 
   .parent {
     display: flex;
-    flex-direction: column;
     width: 100vw;
   }
 
@@ -145,7 +144,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .log-in, label, button, input, .copy-right {
+  .log-in, label, button, input, .copy-right, .psdcheck p {
     font-family: var(--main-fonts);
   }
 
@@ -173,4 +172,6 @@
 .bothCheck {
     display: none;
 }
+
+
 
