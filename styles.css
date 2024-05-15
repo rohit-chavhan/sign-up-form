@@ -47,8 +47,8 @@
     width: 100vw;
   }
 
-  .image-holder,
-  .sign-up
+  .sign-up,
+  .image-holder
    {
     width: 50vw;
     height: 100vh;
@@ -70,7 +70,7 @@
   }
 
   .copy-right {
-    font-size: var(--main-fo-size);
+    font-size: 1.5 rem;
     text-align: center;
     margin-bottom: 25px;
   }
@@ -124,13 +124,13 @@
     font-size: 1rem;
     font-style: italic;
   }
-
-  .pexels {
+/* 
+  .credit-pexels {
     position: absolute;
     right: 400px;
     bottom: 179px;
     width: 180px;
-  }
+  } */
 
   .flexgroup {
     display: flex;
@@ -144,7 +144,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .log-in, label, button, input, .copy-right, .psdcheck p {
+  .log-in, label, button, input, .copy-right, .psdcheck p, .bothCheck {
     font-family: var(--main-fonts);
   }
 
@@ -154,7 +154,9 @@
   }
 
   .to-hideon-pswdVer {
-    display: none;
+    font-size: 1.3rem;
+    display: block;
+    border-radius: 30px;
   }
 
   .red-text-color {
@@ -173,5 +175,26 @@
     display: none;
 }
 
+.image-holder {
+  display: flex;
+  flex-grow: 1;
+}
 
+.image-holder > img {
+  width: max-content;
+}
 
+@media screen and (max-width: 1150px){
+  .sign-up {
+    width: 40vw;
+  }
+
+  .image-holder {
+    width: 60vw;
+  }
+}
+
+.img-credits {
+  margin-top: 20px;
+  font-family: var(--main-fonts);
+}
