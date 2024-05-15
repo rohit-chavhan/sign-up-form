@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
+    <title>sign-up form</title>
+    <link rel="icon" type="image/ico" href="daleImage/e.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="sign-up">
+            <div class="flexgroup">
+
+                <a href="https://rohit-chavhan.github.io/landing-page/">
+                    <img class="logo" src="daleImage/emanLogo.svg" alt="">
+                </a>
+
+                <p class="copy-right">Sign up now and unlock the secrets of Eman's innovative email solution, where automation magic meets seamless integrations, and payment processing becomes a breeze.</p>
+
+                <form action="#" method="get">
+                    <div>
+                        <label for="full-name">Full Name</label>
+                    </div>
+                    <input type="text" name="full-name" id="full-name" required>
+                
+                    <div>
+                        <label for="email">Email</label>
+                    </div>
+                    <input type="email" name="email" id="email" required>
+                
+                    <div>
+                        <label for="phone-num">Phone Number</label>
+                    </div>
+                    <input type="number" name="phone-num" id="phone-num" required>
+                
+                    <div>
+                        <label for="password">password</label>
+                    </div>
+                        <input type="password" name="password" value="" id="password" autocomplete="off">
+                        <br>
+                        <label for="show-password">Show Password</label>
+                        <input type="checkbox" onclick="showPwd()" value="" class="checkBox" id="show-password" autocomplete="off">
+                        <br>
+                    <div>
+                        <label for="confirmPwd">Confirm Password</label>
+                    </div>
+                        <input type="password" class="confirmPwd" value="" autocomplete="off" >
+                </form>
+
+                <h1 class="bothCheck">Both password do not match</h1>
+    
+                <div class="psdcheck">
+                    <p class="lengthOfNum red-text-color">password must be greater than 8  digits</p>
+                    <p class="capitalNum red-text-color">A capital letter</p>
+                    <p class="num red-text-color">A number</p>
+                    <p class="lower red-text-color">A lower</p>
+                </div>
+                    
+                    <button class="to-hideon-pswdVer" type="button">Create Account</button>
+                    <p class="log-in to-hideon-pswdVer">Already an existing member? Login <a href="">here.</a> </p>
+            </div>
+        </div>
+    </div>
+
+        <div class="image-holder"></div> 
+        <img src="daleImage/pexels-great.svg" alt="" class="pexels">
+    </div>
+</body>
+</html>
