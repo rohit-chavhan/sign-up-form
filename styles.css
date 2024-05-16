@@ -79,6 +79,7 @@
     margin-bottom: 15px;
     border: 2px solid;
     border-radius: 3px;
+    border-color: green;
   }
   
 
@@ -98,7 +99,7 @@
     border-color: 
     var(--main-color) 
     var(--main-color) 
-    gray
+    green
     var(--main-color);
   }
 
@@ -124,13 +125,6 @@
     font-size: 1rem;
     font-style: italic;
   }
-/* 
-  .credit-pexels {
-    position: absolute;
-    right: 400px;
-    bottom: 179px;
-    width: 180px;
-  } */
 
   .flexgroup {
     display: flex;

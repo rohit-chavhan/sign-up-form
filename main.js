@@ -26,7 +26,6 @@ const numLength = document.querySelector('.lengthOfNum');
 const numCapital = document.querySelector('.capitalNum');
 const inputNum = document.querySelector('.num');
 const inputLower = document.querySelector('.lower');
-
 const confirmPsword = document.querySelector('.confirmPwd');
 const confirmPassDiffer = document.querySelector('.bothCheck');
 const checkBoxClass = document.querySelector('.checkBox');
